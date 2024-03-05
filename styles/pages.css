@@ -1,0 +1,73 @@
+.page-anime {
+  display: flex;
+}
+
+.page-anime-thumbnail {
+  width: 150px;
+  margin: 20px 25px;
+  border-radius: 9px;
+}
+
+.naruto{
+  width: 150px;
+  margin-top: 50px;
+  margin-left: 24px;
+}
+
+.page-anime-name {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  display: block;
+  color: white;
+  font-size: 50px;
+}
+
+.page-anime-description {
+  color: white;
+  margin-top: 35px;
+}
+
+.page-buttons {
+  width: 350px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.page-watch-now-button {
+  background-color: rgb(182, 15, 15);
+  color: white;
+  font-size: 16px;
+  border: solid;
+  border-width: 2px;
+  border-radius: 30px;
+  margin-right: 2px;
+  width: 150px;
+  height: 40px;
+}
+
+.page-Download-button {
+  background-color: rgb(204, 158, 73);
+  color: white;
+  font-size: 16px;
+  border: solid;
+  border-width: 2px;
+  border-radius: 30px;
+  margin-right: 2px;
+  width: 150px;
+  height: 40px;
+}
+
+.page-add-to-list-button {
+  background-color: rgb(167, 167, 48);
+  color: white;
+  font-size: 16px;
+  border: solid;
+  border-width: 2px;
+  border-radius: 30px;
+  margin-right: 2px;
+  width: 150px;
+  height: 40px;
+}

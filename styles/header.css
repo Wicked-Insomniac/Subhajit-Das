@@ -1,0 +1,167 @@
+
+
+header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.hamburger-menu {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.website-logo {
+  width: 45px;
+  margin: 5px;
+}
+
+.hamburger-menu-button {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 5px;
+  padding-right: 18px;
+  height: 33px;
+  width: 33px;
+  border: none;
+}
+
+.website-logo-button {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+}
+
+.left-div {
+  background-color:black;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  width: 200px;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.centre-div {
+  background-color: black;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-div {
+  width: 200px;
+  background-color: black;
+  font-size: 12px;
+  color: white;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.search-bar {
+  flex: 1;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 16px;
+  font-size: 15px;
+  height: 26px;
+  background-color: rgb(255,102,196);
+  color: white;
+  width: 200px;
+  padding-left: 10px;
+  margin-left: 5px;
+}
+
+.search-bar::placeholder {
+  color: white;
+}
+
+.body-div {
+  padding-top: 12px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-div,
+.second-div,
+.third-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+.search-button {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 5px;
+  padding: 0px;
+  height: 33px;
+  width: 33px;
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255,102,196);
+}
+
+.search-icon {
+  height: 30px;
+  width: 34px;
+  border-radius: 20px;
+}
+
+.profile-pic-button {
+  background-color: transparent;
+  border: none;
+}
+
+.profile-pic {
+  height: 34px;
+  width: 34px;
+  border-radius: 20px;
+}
+
+.tools-button {
+  background-color: transparent;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.home-icon {
+  width: 16px;
+}
+
+.notification-bell-icon,
+.mail-icon {
+  width: 20px;
+}
